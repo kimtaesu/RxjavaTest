@@ -40,6 +40,9 @@ dependencies {
 
     // https://mvnrepository.com/artifact/io.reactivex.rxjava2/rxkotlin
     compile group: 'io.reactivex.rxjava2', name: 'rxkotlin', version: '2.1.0'
+// https://mvnrepository.com/artifact/com.jayway.awaitility/awaitility
+    testCompile group: 'org.awaitility', name: 'awaitility', version: '2.0.0'
+
 
 }
 repositories {
